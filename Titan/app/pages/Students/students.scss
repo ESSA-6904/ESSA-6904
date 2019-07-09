@@ -1,0 +1,29 @@
+.students{
+    .header{
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 30px;
+        .filter-input{
+            width: 300px;
+        }
+    }
+    .add-card-style {
+        width: 320px;
+        height: 320px;
+        object-fit: contain;
+        box-shadow: 0px 3px 8.1px 1.9px rgba(0, 0, 0, 0.07);
+        border-color: blue;
+        background-color: #ffffff;
+        margin: 20px;
+    padding: 8px;
+        .project-plus-icon {
+            font-size: 40px;
+            color: #2a4bd8;
+        }
+    }
+    .student-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
